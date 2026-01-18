@@ -186,7 +186,7 @@
   .hero-container {
   background-position: top;
   padding: 70px 0px;
-  /* min-height: 400px; */
+  min-height: 400px;
   }
 
   .hero-circle{
@@ -212,16 +212,8 @@
   margin-top: 20px;
 }
 
-/* podcast */
-
-  /* .podcast-container{
-    background-color: #1A0B2E;
-  } */
-
   .podcast-container>div {
     width: 95%; 
-    /* margin: 0 auto;
-    text-align: center; */
   }
 
   .upper{
@@ -229,9 +221,6 @@
   }
 
   .lower{
-    /* display: flex;
-    justify-content: space-around;
-    border-top: 1px dashed rgba(128, 128, 128, 0.288); */
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -239,7 +228,6 @@
   .podcast-title{
     font-size: 24px;
     font-weight: 700;
-    /* padding: 20px 0; */
   }
 
   .podcast-details{
