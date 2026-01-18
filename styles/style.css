@@ -1,0 +1,49 @@
+/* font setup */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+/* shared style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* navbar related style */
+.nav-container{
+  border: 2px dotted red;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1A0B2E;
+}
+
+.nav-left{
+  border: 2px solid green;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.nav-mid{
+  border: 2px solid gold;
+  display: flex;
+}
+
+.nav-mid li{
+  list-style: none;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-mid li a{
+  text-decoration: none;
+}
+
+.nav-right{
+  border: 2px solid cyan;
+}
+
