@@ -4,23 +4,24 @@
 .inter-font {
   font-family: "Inter", sans-serif;
 }
+
 /* shared style */
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: white;
 }
 
-.gradient-text{
-  background-image: linear-gradient(to top right , #F7E93F, #FB09B4, #9100F8);
+.gradient-text {
+  background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.gradient-btn{
-  background-image: linear-gradient(to top right , #F7E93F, #FB09B4, #9100F8);
+.gradient-btn {
+  background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
   border-radius: 20px;
   padding: 10px 20px;
   border: none;
@@ -28,40 +29,42 @@
 
 /* navbar related style */
 
-.nav-container{
+.nav-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #1A0B2E;
   padding-top: 50px;
-  /* height: 200px; */
+  padding-bottom: 20px;
 }
 
-.nav-left{
+.nav-left {
   font-size: 32px;
   font-weight: 900;
 }
 
-.nav-mid{
+.nav-mid {
   display: flex;
 }
 
-.nav-mid li{
+.nav-mid li {
   list-style: none;
   margin: 0 30px;
   display: flex;
   align-items: center;
 }
 
-.nav-mid li a{
+.nav-mid li a {
   text-decoration: none;
 }
 
-/* .nav-right{
-  border: 2px solid cyan;
-} */
+.hamburger {
+  height: 20px;
+  display: none;
+}
 
 /* hero section related style */
-.hero-container{
+.hero-container {
   background-image: url("/assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,21 +83,43 @@
   padding-right: 120px;
 } */
 
-.hero-title{
+.hero-title {
   font-size: 60px;
   font-weight: 900;
   margin-top: 40px;
   margin-bottom: 15px;
 }
 
-.btn-div{
+.btn-div {
   padding-top: 20px;
 }
 
-.hero-btn-2{
+.hero-btn-2 {
   background-color: transparent;
   color: #00FF88;
   border: 1px solid #00FF88;
   border-radius: 20px;
   padding: 10px 30px;
+}
+
+/* small device */
+@media screen and (max-width: 576px) {
+
+  /* navbar */
+  .nav-container{
+    justify-content: space-between; 
+    padding: 20px;
+  }
+
+  .nav-mid{
+    display: none;
+  }
+
+  .nav-right{
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
 }
