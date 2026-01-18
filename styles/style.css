@@ -71,17 +71,26 @@
   background-position: center;
   text-align: center;
   padding: 100px 0;
+  position: relative;
 }
 
-/* .mic{
-  background: url("/assets/hero-circle.png");
-  background-repeat: no-repeat;
+.new-badge {
+  background-color: #00FF88;
+  color: black;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  position: absolute;
+  left: 55%;
+  bottom: 80%;
+}
 
-  padding-top: 98px;
-  padding-bottom: 113px;
-  padding-left: 113px;
-  padding-right: 120px;
-} */
+.mic {
+  position: absolute;
+  left: 47%;
+  bottom: 52%;
+}
 
 .hero-title {
   font-size: 60px;
@@ -106,20 +115,55 @@
 @media screen and (max-width: 576px) {
 
   /* navbar */
-  .nav-container{
-    justify-content: space-between; 
+  .nav-container {
+    justify-content: space-between;
     padding: 20px;
   }
 
-  .nav-mid{
+  .nav-left {
+  font-size: 24px;
+  font-weight: 700;
+  }
+
+  .nav-mid {
     display: none;
   }
 
-  .nav-right{
+  .nav-right {
     display: none;
   }
 
   .hamburger {
     display: inline;
   }
+
+  /* hero */
+  .hero-container {
+  background-position: top;
+  padding: 70px 0px;
+  min-height: 400px;
+  }
+
+  .hero-circle{
+    height: 220px;
+    width: 220px;
+  }
+
+  .new-badge {
+    left: 55%;
+    bottom: 80%;
+  }
+
+  .mic {
+    height: 90px;
+    width: 60px;
+    left: 43%;
+    bottom: 60%;
+  }
+
+  .hero-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+}
 }
