@@ -301,4 +301,37 @@
   .podcast-text{
     font-size: 9px;
   }
+
+  /* grid */
+
+  .grid-container{
+    padding: 50px 10px;
+  }
+
+  .grid-container h1{
+    font-size: 28px;
+  }
+
+  .grid-div-container{
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 250px);
+  }
+
+  .five-divs{
+    padding: 15px;
+  }
+
+  .five-divs h3{
+    margin: 10px 0;
+  }
+
+  .premium{
+    grid-row: span 1;
+    padding-top: 20px;
+  }
+
+  .mobile, .global, .exclusive{
+    grid-column: span 1;
+  }
+
 }
