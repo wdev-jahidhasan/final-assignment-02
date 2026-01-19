@@ -210,7 +210,6 @@
   .episode-container{
     background-color: #1A0B2E;
     padding: 100px 350px;
-    /* text-align: center; */
   }
 
   .episode-container h1{
@@ -390,6 +389,34 @@
 
   .mobile, .global, .exclusive{
     grid-column: span 1;
+  }
+
+  /* episode */
+
+  .episode-container{
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .episode-container h1{
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .video-div{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .three-div{
+    border: 1px solid #00FF88;
+    width: 100%;
+  }
+
+   .youtube-video{
+    height: 245px;
+    width: 100%;
+    border-radius: 20px;
   }
 
 }
