@@ -75,7 +75,7 @@
 
 /* hero section related style */
 .hero-container {
-  background-image: url("/assets/hero-bg.png");
+  background-image: url("../assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -537,7 +537,7 @@
 
   /* footer related style */
   .footer-container {
-    background: url("/assets/footer-bg.png");
+    background: url("../assets/footer-bg.png");
     background-position: left;
     width: 100%;
   }
