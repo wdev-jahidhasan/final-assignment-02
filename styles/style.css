@@ -14,6 +14,11 @@
   color: white;
 }
 
+.dim-text{
+  color: rgba(255, 255, 255, 0.615);
+  line-height: 24px;
+}
+
 .green-text{
   font-size: 48px;
   font-weight: 900;
@@ -296,6 +301,12 @@
     display: flex;
     gap: 30px;
     align-items: center;
+  }
+
+  .host-icons{
+    border: 2px solid #130425;
+    padding: 20px;
+    border-radius: 50%;
   }
 
 
