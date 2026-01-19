@@ -261,6 +261,43 @@
     color: #00FF88;
   }
 
+  /* host related style */
+
+  .host-container{
+    background-color: #1A0B2E;
+    padding: 50px 350px;
+  }
+
+  .host-title{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .host-info-div{
+    background-color: #230E3D;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .host-name{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .host-about{
+    margin-bottom: 20px;
+  }
+
+  .host-icon-div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
 
 
   /* --------------------------------------------------------------- */
