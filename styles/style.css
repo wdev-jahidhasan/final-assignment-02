@@ -309,7 +309,40 @@
     border-radius: 50%;
   }
 
+/* footer related style */
 
+  .footer-container{
+    background: url("/assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer-title{
+    font-size: 100px;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .logo-div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 350px 90px;
+  }
+
+  .tech{
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer-icons{
+    width: 25px;
+  }
+
+  .copyright{
+    text-align: center;
+    padding-bottom: 50px;
+  }
 
   /* --------------------------------------------------------------- */
 
