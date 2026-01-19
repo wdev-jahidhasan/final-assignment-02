@@ -168,6 +168,44 @@
     color: #00FF88;
   }
 
+  /* grid related container */
+  .grid-container{
+    background-color: #1A0B2E;
+    padding: 100px 150px;
+  }
+
+  .grid-container h1{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 48px;
+  }
+
+  .grid-div-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 240px);
+    gap: 10px;
+  }
+
+  .five-divs{
+    background-color: #351165;
+    border-radius: 20px;
+    padding: 25px;
+  }
+
+  .five-divs h3{
+    margin: 20px 0;
+  }
+
+  .premium{
+    grid-row: span 2;
+    padding-top: 120px;
+  }
+
+  .mobile, .global, .exclusive{
+    grid-column: span 2;
+  }
+
   /* --------------------------------------------------------------- */
 
 /* small device */
