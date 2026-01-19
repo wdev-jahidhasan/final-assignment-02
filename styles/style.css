@@ -6,7 +6,6 @@
 }
 
 /* shared style */
-
 * {
   margin: 0;
   padding: 0;
@@ -14,12 +13,12 @@
   color: white;
 }
 
-.dim-text{
+.dim-text {
   color: rgba(255, 255, 255, 0.615);
   line-height: 24px;
 }
 
-.green-text{
+.green-text {
   font-size: 48px;
   font-weight: 900;
   padding: 15px 0;
@@ -40,7 +39,6 @@
 }
 
 /* navbar related style */
-
 .nav-container {
   display: flex;
   justify-content: space-around;
@@ -104,7 +102,6 @@
 }
 
 /* animation and badge-button related style */
-
 .hero-btn-2 {
   background-color: transparent;
   color: #00FF88;
@@ -117,10 +114,15 @@
 }
 
 @keyframes blinking-badge {
-  0%, 50%, 100% {
+
+  0%,
+  50%,
+  100% {
     box-shadow: 4px 3px 10px #00ff0d;
   }
-  25%, 75% {
+
+  25%,
+  75% {
     border-color: #ae09fb;
     box-shadow: 0 0 30px #fb0909;
   }
@@ -138,213 +140,209 @@
 }
 
 /* podcast section related style */
+.podcast-container {
+  background-color: #1A0B2E;
+}
 
-  .podcast-container{
-    background-color: #1A0B2E;
-  }
+.podcast-container>div {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  .podcast-container>div {
-    width: 70%; 
-    margin: 0 auto;
-    text-align: center;
-  }
+.upper {
+  padding-bottom: 80px;
+}
 
-  .upper{
-    padding-bottom: 80px;
-  }
+.lower {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px dashed rgba(128, 128, 128, 0.288);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
-  .lower{
-    display: flex;
-    justify-content: space-around;
-    border-top: 1px dashed rgba(128, 128, 128, 0.288);
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
+.podcast-title {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 20px 0;
+}
 
-  .podcast-title{
-    font-size: 48px;
-    font-weight: bold;
-    padding: 20px 0;
-  }
+.star {
+  font-size: 34px;
+  color: #00FF88;
+}
 
+/* grid related container */
+.grid-container {
+  background-color: #1A0B2E;
+  padding: 100px 350px;
+}
 
-  .star{
-    font-size: 34px; 
-    color: #00FF88;
-  }
+.grid-container h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
 
-  /* grid related container */
-  .grid-container{
-    background-color: #1A0B2E;
-    padding: 100px 350px;
-  }
+.grid-div-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 240px);
+  gap: 20px;
+}
 
-  .grid-container h1{
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 48px;
-  }
+.five-divs {
+  background-color: #351165;
+  border-radius: 20px;
+  padding: 25px;
+}
 
-  .grid-div-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 240px);
-    gap: 20px;
-  }
+.five-divs h3 {
+  margin: 20px 0;
+}
 
-  .five-divs{
-    background-color: #351165;
-    border-radius: 20px;
-    padding: 25px;
-  }
+.premium {
+  grid-row: span 2;
+  padding-top: 120px;
+}
 
-  .five-divs h3{
-    margin: 20px 0;
-  }
+.mobile,
+.global,
+.exclusive {
+  grid-column: span 2;
+}
 
-  .premium{
-    grid-row: span 2;
-    padding-top: 120px;
-  }
+/* episode related style */
+.episode-container {
+  background-color: #1A0B2E;
+  padding: 100px 350px;
+}
 
-  .mobile, .global, .exclusive{
-    grid-column: span 2;
-  }
+.episode-container h1 {
+  font-size: 48px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 
-  /* episode related style */
-  .episode-container{
-    background-color: #1A0B2E;
-    padding: 100px 350px;
-  }
+.video-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
 
-  .episode-container h1{
-    font-size: 48px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
+.three-div {
+  background-color: #250D44;
+  border-radius: 20px;
+  width: 250px;
+  padding-bottom: 20px;
+}
 
-  .video-div{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-  }
+.youtube-video {
+  height: 145px;
+  width: 250px;
+  border-radius: 20px;
+}
 
-  .three-div{
-    background-color: #250D44;
-    border-radius: 20px;
-    width: 250px;
-    padding-bottom: 20px;
-  }
+.video-title {
+  margin: 15px 0;
+  padding: 0 10px;
+}
 
-  .youtube-video{
-    height: 145px;
-    width: 250px;
-    border-radius: 20px;
-  }
+.video-description {
+  padding: 0 10px;
+}
 
-  .video-title{
-    margin: 15px 0;
-    padding: 0 10px;
-  }
+.duration-div {
+  display: flex;
+  gap: 5px;
+  padding-left: 20px;
+  margin-top: 20px;
+}
 
-  .video-description{
-    padding: 0 10px;
-  }
+.duration-div img {
+  height: 20px;
+}
 
-  .duration-div{
-    display: flex;
-    gap: 5px;
-    padding-left: 20px;
-    margin-top: 20px;
-  }
+.duration {
+  color: #00FF88;
+}
 
-  .duration-div img{
-    height: 20px;
-  }
+/* host related style */
+.host-container {
+  background-color: #1A0B2E;
+  padding: 50px 350px;
+}
 
-  .duration{
-    color: #00FF88;
-  }
+.host-title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
 
-  /* host related style */
+.host-info-div {
+  background-color: #230E3D;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
 
-  .host-container{
-    background-color: #1A0B2E;
-    padding: 50px 350px;
-  }
+.host-name {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
-  .host-title{
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 30px;
-  }
+.host-about {
+  margin-bottom: 20px;
+}
 
-  .host-info-div{
-    background-color: #230E3D;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    gap: 50px;
-    align-items: center;
-  }
+.host-icon-div {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
 
-  .host-name{
-    font-size: 30px;
-    margin-bottom: 20px;
-  }
-
-  .host-about{
-    margin-bottom: 20px;
-  }
-
-  .host-icon-div{
-    display: flex;
-    gap: 30px;
-    align-items: center;
-  }
-
-  .host-icons{
-    border: 2px solid #130425;
-    padding: 20px;
-    border-radius: 50%;
-  }
+.host-icons {
+  border: 2px solid #130425;
+  padding: 20px;
+  border-radius: 50%;
+}
 
 /* footer related style */
+.footer-container {
+  background: url("/assets/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-  .footer-container{
-    background: url("/assets/footer-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
+.footer-title {
+  font-size: 100px;
+  text-align: center;
+  padding: 20px 0;
+}
 
-  .footer-title{
-    font-size: 100px;
-    text-align: center;
-    padding: 20px 0;
-  }
+.logo-div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 350px 90px;
+}
 
-  .logo-div{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 60px 350px 90px;
-  }
+.tech {
+  display: flex;
+  gap: 10px;
+}
 
-  .tech{
-    display: flex;
-    gap: 10px;
-  }
+.footer-icons {
+  width: 25px;
+}
 
-  .footer-icons{
-    width: 25px;
-  }
-
-  .copyright{
-    text-align: center;
-    padding-bottom: 50px;
-  }
-
-  /* --------------------------------------------------------------- */
+.copyright {
+  text-align: center;
+  padding-bottom: 50px;
+}
 
 /* small device */
 @media screen and (max-width: 576px) {
@@ -356,8 +354,8 @@
   }
 
   .nav-left {
-  font-size: 24px;
-  font-weight: 700;
+    font-size: 24px;
+    font-weight: 700;
   }
 
   .nav-mid {
@@ -374,12 +372,12 @@
 
   /* hero */
   .hero-container {
-  background-position: top;
-  padding: 70px 0px;
-  min-height: 400px;
+    background-position: top;
+    padding: 70px 0px;
+    min-height: 400px;
   }
 
-  .hero-circle{
+  .hero-circle {
     height: 220px;
     width: 220px;
   }
@@ -397,135 +395,171 @@
   }
 
   .hero-title {
-  font-size: 40px;
-  font-weight: 700;
-  margin-top: 20px;
-}
-
-  .podcast-container>div {
-    width: 95%; 
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
   }
 
-  .upper{
+  /* podcast */
+  .podcast-container>div {
+    width: 95%;
+  }
+
+  .upper {
     padding-bottom: 40px;
   }
 
-  .lower{
+  .lower {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 
-  .podcast-title{
+  .podcast-title {
     font-size: 24px;
     font-weight: 700;
   }
 
-  .podcast-details{
+  .podcast-details {
     font-size: 12px;
   }
 
-  .green-text{
-  font-size: 20px;
-  font-weight: 700;
-  padding: 5px 0;
-  color: #00FF88;
-}
-
-  .star{
-    font-size: 14px; 
+  .green-text {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 0;
     color: #00FF88;
   }
 
-  .podcast-text{
+  .star {
+    font-size: 14px;
+    color: #00FF88;
+  }
+
+  .podcast-text {
     font-size: 9px;
   }
 
   /* grid */
-
-  .grid-container{
+  .grid-container {
     padding: 50px 10px;
   }
 
-  .grid-container h1{
+  .grid-container h1 {
     font-size: 28px;
   }
 
-  .grid-div-container{
+  .grid-div-container {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 250px);
   }
 
-  .five-divs{
+  .five-divs {
     padding: 15px;
   }
 
-  .five-divs h3{
+  .five-divs h3 {
     margin: 10px 0;
   }
 
-  .premium{
+  .premium {
     grid-row: span 1;
     padding-top: 20px;
   }
 
-  .mobile, .global, .exclusive{
+  .mobile,
+  .global,
+  .exclusive {
     grid-column: span 1;
   }
 
   /* episode */
-
-  .episode-container{
+  .episode-container {
     padding: 20px 10px;
     width: 100%;
   }
 
-  .episode-container h1{
+  .episode-container h1 {
     font-size: 28px;
     margin-bottom: 30px;
   }
 
-  .video-div{
+  .video-div {
     flex-direction: column;
     gap: 20px;
   }
 
-  .three-div{
-    border: 1px solid #00FF88;
+  .three-div {
+    border: 1px solid #d0ddd7;
     width: 100%;
   }
 
-   .youtube-video{
+  .youtube-video {
     height: 245px;
     width: 100%;
     border-radius: 20px;
   }
 
   /* host*/
-
-  .host-container{
+  .host-container {
     padding: 20px 10px;
     width: 100%;
   }
 
-  .host-title{
+  .host-title {
     font-size: 30px;
     margin: 20px 0;
     padding-bottom: 20px;
   }
 
-  .host-info-div{
+  .host-info-div {
     flex-direction: column;
     text-align: center;
     width: 100%;
     gap: 30px;
   }
 
-  .host-name{
+  .host-name {
     font-size: 24px;
   }
 
-  .host-icon-div{
+  .host-icon-div {
     justify-content: center;
   }
 
+  /* footer related style */
+  .footer-container {
+    background: url("/assets/footer-bg.png");
+    background-position: top;
+    width: 100%;
+  }
+
+  .footer-title {
+    font-size: 40px;
+  }
+
+  .logo-div {
+    justify-content: space-evenly;
+    padding: 10px 0px 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .tech {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+  }
+
+  .tech-name {
+    font-size: 20px;
+  }
+
+  .footer-icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .copyright {
+    padding-bottom: 30px;
+  }
 }
