@@ -171,7 +171,7 @@
   /* grid related container */
   .grid-container{
     background-color: #1A0B2E;
-    padding: 100px 150px;
+    padding: 100px 350px;
   }
 
   .grid-container h1{
@@ -184,7 +184,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 240px);
-    gap: 10px;
+    gap: 20px;
   }
 
   .five-divs{
@@ -205,6 +205,64 @@
   .mobile, .global, .exclusive{
     grid-column: span 2;
   }
+
+  /* episode related style */
+  .episode-container{
+    background-color: #1A0B2E;
+    padding: 100px 350px;
+    /* text-align: center; */
+  }
+
+  .episode-container h1{
+    font-size: 48px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .video-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .three-div{
+    background-color: #250D44;
+    border-radius: 20px;
+    width: 250px;
+    padding-bottom: 20px;
+  }
+
+  .youtube-video{
+    height: 145px;
+    width: 250px;
+    border-radius: 20px;
+  }
+
+  .video-title{
+    margin: 15px 0;
+    padding: 0 10px;
+  }
+
+  .video-description{
+    padding: 0 10px;
+  }
+
+  .duration-div{
+    display: flex;
+    gap: 5px;
+    padding-left: 20px;
+    margin-top: 20px;
+  }
+
+  .duration-div img{
+    height: 20px;
+  }
+
+  .duration{
+    color: #00FF88;
+  }
+
+
 
   /* --------------------------------------------------------------- */
 
