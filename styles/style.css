@@ -305,8 +305,8 @@
 }
 
 .host-icons {
-  border: 2px solid #130425;
-  padding: 20px;
+  border: 2px solid #a89eb420;
+  padding: 15px;
   border-radius: 50%;
 }
 
@@ -341,7 +341,13 @@
 
 .copyright {
   text-align: center;
-  padding-bottom: 50px;
+  padding: 30px 0;
+}
+
+.line{
+  border: none;
+  height: 1px;
+  background-color: #d0ddd755;
 }
 
 /* small device */
@@ -410,6 +416,8 @@
   }
 
   .lower {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -424,19 +432,19 @@
   }
 
   .green-text {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 700;
     padding: 5px 0;
     color: #00FF88;
   }
 
   .star {
-    font-size: 14px;
+    font-size: 25px;
     color: #00FF88;
   }
 
   .podcast-text {
-    font-size: 9px;
+    font-size: 18px;
   }
 
   /* grid */
@@ -446,6 +454,7 @@
 
   .grid-container h1 {
     font-size: 28px;
+    margin-bottom: 20px;
   }
 
   .grid-div-container {
@@ -529,7 +538,7 @@
   /* footer related style */
   .footer-container {
     background: url("/assets/footer-bg.png");
-    background-position: top;
+    background-position: left;
     width: 100%;
   }
 
@@ -560,6 +569,7 @@
   }
 
   .copyright {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
 }
