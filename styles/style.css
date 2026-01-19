@@ -312,7 +312,8 @@
 
 /* footer related style */
 .footer-container {
-  background: url("/assets/footer-bg.png");
+  background: url("../assets/footer-bg.png");
+  /* background image issue solved */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
